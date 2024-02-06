@@ -243,9 +243,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-
-#Libero command: libero SCRIPT:../../sources/FPGA-design/BUILD_BVF_GATEWARE.tcl 
-#Libero command: libero SCRIPT:/home/aven/repos/bbv_fire/gateware/sources/FPGA-design/BUILD_BVF_GATEWARE.tcl 
-#
-#"SCRIPT_ARGS: NONE PROJECT_LOCATION:../../work/libero TOP_LEVEL_NAME:DEFAULT_A5E630863F21B808BF2045 HSS_IMAGE_PATH:../../work/HSS/hss-envm-wrapper-bm1-p0.hex PROG_EXPORT_PATH:../.. DESIGN_VERSION:2002"
-#"SCRIPT_ARGS: ONLY_CREATE_DESIGN PROJECT_LOCATION=/home/aven/repos/custom-cape PROG_EXPORT_PATH=/home/aven/repos/custom-cape TOP_LEVEL_NAME=Widget DESIGN_VERSION=0.0.1 CAPE_OPTION=CUSTOM_FPGA M2_OPTION=NONE SYZYGY_OPTION=NONE MIPI_CSI_OPTION=NONE"
