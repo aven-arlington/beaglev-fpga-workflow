@@ -1,0 +1,23 @@
+---
+HSS:
+    type: git
+    link: https://git.beagleboard.org/beaglev-fire/hart-software-services.git
+    branch: develop-beaglev-fire
+    board: bvf
+gateware:
+    type: sources
+    build-args: "CAPE_OPTION:DEFAULT"
+    unique-design-version: 0.0.4
+custom-gateware:
+    type: custom-source
+    cape-name: &cape-name CUSTOM_FPGA
+    cape-template: DEFAULT
+    new-project-path: "/home/<user_name>/repos/custom-cape"
+    build-opts:
+      top-level-name: Widget
+      version: 0.0.1
+      cape: *cape-name
+      m2: NONE
+      syzygy: NONE
+      mipi_csi: NONE
+
